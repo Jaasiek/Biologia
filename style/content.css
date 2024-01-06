@@ -1,0 +1,32 @@
+div.content > h1 {
+  font-size: 100px;
+}
+
+div.content > h3 {
+  font-size: 50px;
+}
+
+div.content {
+  background-color: rgb(3, 61, 6);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 80vh;
+  width: 100vw;
+  border-radius: 100px;
+}
+
+div.content > h1,
+div.content > h3 {
+  letter-spacing: 2px;
+  transition: letter-spacing 0.5s;
+}
+
+div.content > h1:hover,
+div.content > h3:hover {
+  letter-spacing: 12px;
+  transition: 0.5s;
+  cursor: default;
+}
