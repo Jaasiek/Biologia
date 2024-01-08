@@ -29,7 +29,8 @@ h5 {
   font-size: 15px;
 }
 
-#fosfolipid {
+#fosfolipid,
+#nukleotyd {
   width: 500px;
   height: auto;
 }
